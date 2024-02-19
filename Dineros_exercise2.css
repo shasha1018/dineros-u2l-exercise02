@@ -1,0 +1,38 @@
+/*
+Sha Sha Marie M. Dineros 
+Exercise 2
+February 19, 2024
+This program is for styling the HTML page of a single-page static website portfolio.
+*/
+
+/* CSS for the flex container */
+.flex-container {
+    display: flex; /* Enables flexbox */
+    height: 100%; /* Sets the height of the flex container */
+    background-color: darkblue; /* Background color of the flex container */
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+/* CSS for the flex items */
+.flex-item {
+    width: 1000px; /* Width of the flex items */
+    height: 180px; /* Height of the flex items */
+    font-family:sans-serif;            
+    font-size: 20px; /* Font size of the content */
+    color: black; /* Text color */
+    background-color: lightgray;
+    align-items: center;
+    text-align: center;
+    border: 1px solid Black;
+}
+
+/* Individual height and style for each flex item */
+.flex-item:nth-child(1) {height: 50px; color: white; background-color: #333;}
+.flex-item:nth-child(2) {height: 350px;}
+.flex-item:nth-child(4) {height: 280px;}
+.flex-item:nth-child(5) {height: 350px;}
+.flex-item:nth-child(6) {height: 130px; color: white; background-color: #333;}

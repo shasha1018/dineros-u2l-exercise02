@@ -1,0 +1,89 @@
+<!-- 
+Sha Sha Marie M. Dineros 
+Exercise 2
+February 19, 2024
+This program creates an HTML page of a single-page static website portfolio. 
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Sha Sha Marie </title>
+    <!-- Linking the CSS file for the styles -->
+	<link rel="stylesheet" type="text/css" href="Dineros_exercise2.css">
+</head>
+
+<body>
+
+<!-- Creating the flex containers -->
+<div class="flex-container">
+    
+    <!-- The first flex container, the navigation bar -->
+    <div class="flex-item">
+        <a class="active" href="#home">Home</a>
+        <a href="#aboutme">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#prevprojs">Previous Projects</a>
+        <a href="#contactme">Contact Me</a>
+    </div>
+
+    <!-- Home container -->
+    <div class="flex-item" id="home">
+        <tr>
+            <td width="40%">
+                <img src="Profile Picture.png" align="left">
+            </td>
+            <td width="60%">
+                <p style="font-family:Papyrus;"">Hello, I am Sha Sha Marie M. Dineros!</p>
+                <p>Medium level experience in web design and <br> development knowledge, producing <br> quality work.</p>
+            </td>
+        </tr>    
+    </div>
+
+    <!-- About Me container -->
+    <div class="flex-item" id="aboutme">
+        <p style="font-family:Papyrus;"">About Me</p>
+        <ul>
+            <li>Junior at the University of the Philippines Los Baños studying BS Statistics</li>
+            <li>Born on October 18, 2002 in Tondo, Manila</li>
+            <li>Currently residing in Makati City</li>
+        </ul>
+    </div>
+
+    <!-- Skills container -->
+    <div class="flex-item" id="skills">
+        <p style="font-family:Papyrus;"">Skills</p>
+        <ul>
+            <li>Has a background on Java, C, Python, and R</li>
+            <li>HTML and CSS skills</li>
+            <li>Problem solving</li>
+            <li>Time management</li>
+            <li>Enjoy learning</li>
+            <li>Attention to detail</li>
+            <li>Good communication</li>
+        </ul>
+    </div>
+
+    <!-- Previous Projects container-->
+    <div class="flex-item" id="prevprojs">
+        <tr>
+            <td width="40%">
+                <img src="proj.png" align="left">
+            </td>
+            <td width="60%">
+                <p style="font-family:Papyrus;"">Previous Project</p>
+                <p>This project is in fulfillment of the course CMSC 12. <br> This project is an HTML page of a form for <br>ordering burgers.</p>
+            </td>
+        </tr>    
+    </div>
+
+    <!-- Contact details container -->
+    <div class="flex-item" id="contactme">
+        <p style="font-family:Papyrus;"">Contact Me</p>
+        Email: smdineros@up.edu.ph <br>
+        Phone Number: 09772887462
+    </div>
+
+</div>
+</body>
+</html>
